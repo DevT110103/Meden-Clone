@@ -1,0 +1,22 @@
+.wrapper {
+  width: 100%;
+  min-height: 150px;
+}
+
+.title {
+  text-transform: uppercase;
+  border-bottom: 1px solid #aaa;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 0 0 10px;
+  margin-bottom: 0 0 15px;
+  color: var(--color-primary);
+}
+
+.link {
+  display: block;
+  &:first-child {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,26 @@
+.wrapper {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.prev-btn {
+  width: 50px;
+  height: 30px;
+
+  padding: 10px 20px;
+
+  border-radius: 20px;
+
+  background-color: var(--color-primary);
+  color: #fff;
+
+  transition: all 0.2s linear;
+
+  &:hover {
+    color: #fff;
+    opacity: 0.9;
+  }
+}

@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  position: fixed;
+  right: 0;
+  top: 10px;
+
+  width: 20%;
+  min-height: 60px;
+  padding: 10px 20px;
+
+  background-color: aqua;
+
+  transition: all 0.2s ease-in;
+
+  transform: translateX(calc(100% + 10px));
+
+  &.active {
+    transform: translateX(0);
+  }
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    left: -10px;
+
+    height: 100%;
+    width: 2px;
+
+    background-color: aqua;
+  }
+}
+
+.icon {
+  margin-right: 8px;
+  color: orange;
+}
+
+.desc {
+  font-weight: 700;
+}

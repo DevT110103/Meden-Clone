@@ -1,0 +1,24 @@
+.wrapper {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.title {
+  position: relative;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+
+  color: var(--color-primary);
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+
+    width: 5%;
+    height: 3px;
+
+    background-color: var(--color-primary);
+  }
+}

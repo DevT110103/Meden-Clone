@@ -1,0 +1,30 @@
+const routes = {
+  home: '/',
+  product: '/san-pham',
+  productDetail: '/@san-pham',
+  device: '/thiet-bi-nha-khoa',
+  blogs: '/blogs',
+  library: '/thu-vien',
+  introduce: '/gioi-thieu',
+  contact: '/contact-us',
+  emax: '/emax',
+  solution: '/solution',
+  catalog: '/catalog',
+  catalogDetail: '/catalog/@:product',
+  news: '/news',
+  education: '/education',
+  dentalEquipment: '/dentalEquipment',
+  clinical: '/clinical',
+  dentistryTools: '/dentistry-tools',
+  laboTools: '/labo-tools',
+  materialLabo: '/material-labo',
+  orthodontic: '/orthodontic',
+  login: '/login',
+  admin: '/admin',
+  AdminCategories: '/admin/add-category',
+  adminEditCategory: '/admin/edit',
+
+  notFound: '*',
+};
+
+export default routes;

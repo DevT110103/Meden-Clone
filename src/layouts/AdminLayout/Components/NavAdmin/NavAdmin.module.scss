@@ -1,0 +1,25 @@
+.wrapper {
+  margin-right: 16px;
+}
+
+.nav {
+  color: white;
+
+  font-size: 2rem;
+
+  border-radius: 10px;
+
+  padding: 5px;
+
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    background-color: blue;
+
+    cursor: pointer;
+  }
+
+  &.active {
+    background-color: blue;
+  }
+}

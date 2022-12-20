@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+
+  background-color: var(--color-primary);
+  color: #fff;
+
+  transition: opacity 0.2s linear;
+
+  &:hover {
+    opacity: 0.9;
+
+    cursor: pointer;
+  }
+
+  &:disabled {
+    opacity: 0;
+    user-select: none;
+    cursor: default;
+  }
+}
+
+.wrapper-page {
+  display: flex;
+  align-items: center;
+}
+
+.page {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+
+  text-align: center;
+  font-weight: 700;
+
+  background-color: var(--color-primary);
+  color: #fff;
+
+  transition: opacity 0.2s linear;
+
+  &:hover {
+    opacity: 0.9;
+
+    cursor: pointer;
+  }
+}

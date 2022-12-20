@@ -1,0 +1,43 @@
+.wrapper {
+  position: relative;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  margin-right: 16px;
+}
+
+.icon {
+  margin-right: 4px;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.empty {
+  font-size: 2.4rem;
+  text-align: center;
+
+  color: #ccc;
+}
+
+.icon-empty {
+  margin-left: 8px;
+}

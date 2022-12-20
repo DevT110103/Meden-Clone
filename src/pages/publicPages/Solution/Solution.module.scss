@@ -1,0 +1,23 @@
+.wrapper-title {
+  margin-bottom: 60px;
+}
+
+.title {
+  font-size: 3rem;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  font-weight: 500;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 10%;
+    height: 2px;
+    background: var(--color-primary);
+    bottom: -10px;
+    left: 0;
+  }
+}
+.content {
+  margin-bottom: 30px;
+}

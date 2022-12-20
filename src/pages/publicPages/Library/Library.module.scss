@@ -1,0 +1,24 @@
+.wrapper {
+  margin-bottom: 30px;
+}
+
+.wrapper-content {
+  display: block;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 16px;
+}
+
+.input {
+  outline: 1px solid #000;
+  height: 36px;
+  width: calc(100% - 150px);
+  margin-right: 25px;
+  padding: 10px 20px;
+}
+
+.btn-submit {
+  font-weight: 700;
+}

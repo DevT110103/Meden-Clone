@@ -1,0 +1,22 @@
+.wrapper {
+  padding-top: 105px;
+  width: 100%;
+}
+
+.wrapper-content {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translate(-100%, -200%);
+  width: 550px;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sub-title {
+  margin-bottom: 16px;
+}

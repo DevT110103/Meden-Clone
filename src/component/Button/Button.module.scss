@@ -1,0 +1,28 @@
+.btn {
+  color: #fff;
+  background-color: var(--color-primary);
+  min-width: 107px;
+  text-align: center;
+  padding: 10px;
+  transition: opacity 0.2s linear;
+  text-transform: uppercase;
+
+  &:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    color: #fff;
+  }
+}
+
+.loading {
+  animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

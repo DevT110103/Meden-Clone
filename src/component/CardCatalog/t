@@ -1,0 +1,54 @@
+n=int(input("Nhap so luong phan tu : "))
+ds=[]
+for i in range(0,n):
+    s=float(input("Nhap so thuc : "))
+    ds.append(s)
+print("Danh sach sau khi nhap la : ")
+print(ds)
+
+#Nhap vao vi tri k
+k=int(input("Nhap vao vi tri can xoa : "))
+for i in range(0,len(ds)):
+    if i==k:
+        ds.pop(i)
+print("Danh sach sau khi xoa la : ", ds )
+
+#Tao 2 list moi
+list1=[]
+list2=[]
+for i in ds:
+    if abs(i-int(i)) >=0.5:
+        list1.append(i)
+    else:
+        list2.append(i)
+#In ra ds vua tao
+print("2 danh sah vua tao la : ")
+print("Danh dach 1 : ",list1)
+print("Danh sach 2 : ",list2)
+
+#sap xep
+list1.sort()
+list2.sort(reverse=True)
+print("Danh sach co phan le lon hon 0.5 co thu tu tang dan : ",list1)
+print("Danh sach co phan le nho hon 0.5 co thu nho dan : ", list2)
+
+listtron=[]
+i=0
+while i<len(list1) and i<len(list2):
+    if len(arr1)>len(arr2):
+        listtron.apend(arr1[i])
+    listtron.apend(arr2[i])
+    if len(arr1)=<len(arr2):
+        listtron.apend(arr1[i])
+    i=i+1
+
+if i==len(list1):
+    while i<len(list2):
+        listtron.append(list2[i])
+        i=i+1
+else:
+    while i<len(list1):
+        listtron.append(list1[i])
+        i=i+1
+print("Danh sach sau khi tron la : ", listtron)
+

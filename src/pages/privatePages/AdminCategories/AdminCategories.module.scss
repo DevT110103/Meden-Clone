@@ -1,0 +1,22 @@
+.title {
+  position: relative;
+
+  margin-bottom: 24px;
+
+  text-transform: uppercase;
+
+  color: var(--color-primary);
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+
+    width: 10%;
+    height: 3px;
+
+    background-color: var(--color-primary);
+  }
+}

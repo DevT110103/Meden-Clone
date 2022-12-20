@@ -1,0 +1,32 @@
+.wrapper {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+  height: 50vh;
+}
+
+.wrapper-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #fff;
+  margin-bottom: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.description {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}

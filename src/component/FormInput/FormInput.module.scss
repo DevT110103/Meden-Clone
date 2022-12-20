@@ -1,0 +1,30 @@
+.wrapper {
+  margin-bottom: 16px;
+}
+
+.input {
+  display: block;
+
+  padding: 5px 20px;
+  width: 100%;
+
+  outline: 1px solid #000;
+
+  &:invalid[focused='true'] ~ .msg {
+    display: block;
+  }
+  &:invalid[focused='true'] {
+    outline-color: red;
+  }
+}
+
+.msg {
+  display: none;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  margin-top: 4px;
+
+  color: rgba(255, 0, 0, 0.7);
+}
